@@ -15,7 +15,10 @@
         <div class="content">
 
           <p class="title is-4 ">{{employ.name}}
-          <a class="icon fa fa-link" :href="employ.website"></a></p>
+          <!-- <a class="icon fa fa-link" :href="employ.website"></a></p> -->
+          <div class="tags" v-for="tag in employ.tags">
+            <div class="tag is-small">{{tag}}</div>
+          </div>
           <p class="subtitle">{{employ.position}}</p>
           <p class="has-text-justified">{{employ.description}}</p>
         </div>

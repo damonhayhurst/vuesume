@@ -72,6 +72,10 @@ dt {
   left: 0;
 }
 
+.title {
+  line-height: inherit;
+}
+
 p.header-text {
   font-size: .75rem;
 }

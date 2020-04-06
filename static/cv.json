@@ -1,70 +1,48 @@
 {
   "theme": "base",
-  "pageTitle": "Dennis Russell - CV",
+  "pageTitle": "Damon Hayhurst - CV",
   "showMenu": true,
   "profile": {
-    "firstname": "Dennis",
-    "lastname": "Russell",
-    "brief": "Instructor, Political Scientist, and Football Watcher.",
-    "image": "./static/profile.jpg",
+    "firstname": "Damon",
+    "lastname": "Hayhurst",
+    "brief": "Full Stack Developer",
+    "image": "./static/profile.png",
     "details": [
       {
         "title": "Location",
-        "value": "Sendai, Japan",
+        "value": "London, UK",
         "icon": "fa-globe"
-      },
-      {
-        "title": "Hometown",
-        "value": "Philadelphia",
-        "icon": "fa-map-signs"
       }
     ],
     "external": [
       {
-        "title": "LinkedIn",
-        "value": "http://linkedin.com/in/dennisbovell",
+        "title": "07511299645",
+        "icon": "fa-phone"
+      },
+      {
+        "title": "damonhayhurst@gmail.com",
+        "icon": "fa-at"
+      },
+      {
+        "title": "damonhayhurst",
+        "value": "http://linkedin.com/in/damonhayhurst",
         "icon": "fa-linkedin"
       },
       {
-        "title": "Github",
-        "value": "http://github.com/rasserudenisu",
+        "title": "damonhayhurst",
+        "value": "http://github.com/damonhayhurst",
         "icon": "fa-github"
-      },
-      {
-        "title": "Twitter",
-        "value": "https://twitter.com/burasseru",
-        "icon": "fa-twitter"
-      },
-      {
-        "title": "Skype",
-        "value": "skype:drbovell?chat",
-        "icon": "fa-skype"
       }
     ]
   },
   "biography": {
     "display": true,
-    "text": "Well-travelled university graduate. University studies focused on Japanese domestic, and international politics. Graduate studies in political science, with coursework steeped in research methods, theory, and practical application. Various experience with Javascript, Java, and Swift, plus related frameworks.",
+    "text": "",
     "headline": "About Me"
   },
   "honors": {
-    "display": true,
-    "items": [
-      {
-        "name": "Villanova University Graduate Tuition Scholarship",
-        "start": "2015-08-24",
-        "end": "2016-05-19",
-        "auspices": "Villanova University",
-        "description": "Received during my tenure as a graduate student."
-      },
-      {
-        "name": "Peter L. and Barbara B. Hunsberger Scholarship for Study Abroad",
-        "start": "2014-01-01",
-        "end": "2014-06-01",
-        "auspices": "Millersville University",
-        "description": "Contributed towards my study abroad at Kansai Gaidai University."
-      }
-    ]
+    "display": false,
+    "items": []
   },
   "skills": {
     "display": true,
@@ -79,11 +57,11 @@
     {
       "name": "Java",
       "description": "Developed various Android apps.",
-      "value": 80,
+      "value": 90,
       "icon": "fa-coffee"
     },
     {
-      "name": "Swift",
+      "name": "Python",
       "description": "Self-taught.",
       "value": 70,
       "icon": "fa-apple"
@@ -96,7 +74,7 @@
     }
   ]},
   "languages": {
-    "display": true,
+    "display": false,
     "items": [
     {
       "name": "English",
@@ -118,7 +96,7 @@
     }
   ]},
   "portfolio": {
-    "display": true,
+    "display": false,
     "items": [
     {
       "name": "Vuesume",
@@ -153,99 +131,49 @@
     "display": true,
     "items": [
     {
-      "name": "Tohoku Gakuin University",
-      "start": "2018-04-04",
-      "location": "Sendai, Miyagi, Japan",
-      "position": "Instructor",
-      "description": "Will serve as instructor for three units of Integrated English at varying levels. Additionally, will instruct the Academic Presentations course.",
-      "website": "http://www.tohoku-gakuin.ac.jp"
+      "name": "Filmdoo",
+      "start": "2019-04-01",
+      "end": "2019-11-01",
+      "location": "London, UK",
+      "position": "Web Developer",
+      "description": "FilmDoo, is a UK-based video-on-demand startup that specialises in independent and world cinema. \n \n Member of the product development team for Filmdoo’s edutainment venture. I was responsible for the R&D on the tech stack that the new product was going to use. I took into consideration the business requirements of the product and scalability when designing the architecture of the product. I carried out the foundational full stack development for the product including developing the data structure and defining the front end component hierarchy. I worked on the development of Filmdoo’s user upload feature that would be part of the main site. I created an endpoint that would receive chunked video data and upload it to AWS using the S3 API. I developed the front end using jQuery. A large part of the project was usability research and testing. I performed extensive research on VOD competitors to define patterns which Filmdoo could use for it’s UX all while being coherent with the rest of the site."
     },
     {
-      "name": "Kmart",
-      "start": "2017-01-31",
-      "end": "2017-09-04",
-      "location": "Columbia, Pennsylvania",
-      "position": "Customer Service Representative",
-      "description": "Acted as primary customer service representative in the store. Responsible for customer needs such as: returns, exchanges, check cashing, bill payments, and wire transfers. Coordinated with management for handling of cashiers and floor staff, setting up merchandise displays, and announcing and executing in-store promotions.",
-      "website": "http://kmart.com"
-    }
+      "name": "Crunch",
+      "start": "2018-07-01",
+      "end": "2019-03-01",
+      "location": "Brighton, UK",
+      "position": "Web Developer",
+      "description": "Crunch provides online accountancy services for small businesses and self-employed people. \n Undertook the development of the core Spring app, developing various features intended to improve the client manager’s ability to handle issues that their client may be having with the app. I also planned and carried out dockerized Python module development. I also was a member of the team developing Crunch’s single sign on technology within a microservice architecture. Responsible for creating MySQL queries that would collate data to uncover client issues and also design MySQL procedures that would fix more widespread issues. I also introduced and implemented a unit testing framework, MyTap, for these procedures"
+    },
+    {
+      "name": "Freelance",
+      "start": "2017-08-01",
+      "end": "2018-01-01",
+      "location": "Melbourne, Australia",
+      "position": "Web Developer",
+      "description": "Provided development services to a multitude of clients found through Gumtree. Required self motivation and good time management in order to achieve results within requested timeframes. Consistent and transparent communication skills were needed in order to discuss requirements with clients. Worked on various Laravel 5 projects. INKRS, a tattoo marketplace, was one such project. I maintained the AngularJs frontend of this application for a while"
+    },
+    {
+      "name": "Highwire Press",
+      "start": "2016-01-01",
+      "end": "2017-03-01",
+      "location": "Brighton, UK",
+      "position": "Java Developer",
+      "description": "Highwire Press is a digital publishing solutions company that provides a range of services including digital content development, access management and hosting. The software development team heavily relies on the domain driven design methodology and test driven development. \n Part of the product development team for SAMSigma, a “SaaS” solution. Employing Agile principles including fast iterations (worked within sprints), the establishing of requirements as a team (regular backlog refinement meetings where future requirements were fleshed out) and daily stand ups. Acted in the role of “scrum master” which responsibilities included the organising of sprint associated meetings for the team and creating interesting methods for carrying out sprint retrospectives (where any good points or issues about the last sprint were raised). "
+    }  
   ]},
   "education": {
     "display": true,
     "items": [
     {
-      "name": "Villanova University",
+      "name": "University of Sussex",
       "end": "2016-05-19",
       "start": "2015-08-24",
-      "location": "Philadelphia, Pennsylvania",
-      "degree": "MA",
-      "major": "Political Science",
-      "website": "http://villanova.edu",
-      "description": "One year towards a Master's degree. Coursework focused on proper investigation methods, critical examination of evidence and research",
-      "coursework": [
-        {
-          "name": "Political Violence",
-          "number": "8300",
-          "description": "Inquiry into what constitutes violence, and how entities use violence for politically-motivated ends. Final paper argued that the US House should switch to MMD."
-        },
-        {
-          "name": "American Party Politics",
-          "description": "Survey of the body of American politics, its institutions, and its constituent components at all levels.",
-          "number": "7000"
-        },
-        {
-          "name": "Public Opinion & Voting Behavior",
-          "description": "Asking why people vote the way they do - and never receiving a pleasant answer.",
-          "number": "800X"
-        },
-        {
-          "name": "Research Methods & Approaches",
-          "description": "Critical approach to research methods, and what it means to be a researcher.",
-          "number": "800X"
-        }
-      ]
-    },
-    {
-      "name": "Millersville University",
-      "end": "2014-12-14",
-      "start": "2011-08-24",
-      "location": "Millersville, Pennsylvania",
-      "degree": "BA",
-      "major": "International Studies",
-      "website": "http://millersville.edu",
-      "description": "",
-      "coursework": [
-        {
-          "name": "Early English Literature",
-          "description": "Broad survey of English literature, from Beowulf through Shakespeare. Texts read in their original forms. Extensive background information given by lecturing professor.",
-          "number": "ENGL 210"
-        },
-        {
-          "name": "World Literature I",
-          "description": "Crtical reading of major literary works, including The Odyssey, Inferno, and The Tempest.",
-          "number": "ENGL 220"
-        },
-        {
-          "name": "International Studies Seminar",
-          "description": "Application of hitherto studied methods and literature, culminating in substantial quantitative paper.",
-          "number": "INTL 400"
-        },
-        {
-          "name": "Global Politics",
-          "description": "Foundation of international relations, between states themselves, IGOs, and NGOs.",
-          "number": "GOVT 220"
-        },
-        {
-          "name": "East Asian Politics",
-          "description": "Study of the political systems of East Asian states, and their origins.",
-          "number": "GOVT 387"
-        },
-        {
-          "name": "Vietnam",
-          "description": "In-depth survey of the lead up and outcome of the Vietnam War.",
-          "number": "HIST 470"
-        }
-      ]
+      "location": "Brighton, UK",
+      "degree": "BSc",
+      "major": "Music Informatics",
+      "description": "The course focused on the broader field of computer science with modules specializing in artificial intelligence and digital music. My dissertation combined web scraping technology with music information retrieval and a neural network model focused on semantic similarity. It was written in Python, which I learnt from scratch."
     }
   ]}
 }
